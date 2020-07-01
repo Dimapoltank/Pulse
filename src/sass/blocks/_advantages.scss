@@ -1,0 +1,17 @@
+.advantages {
+    padding: 20px 0 95px 0;
+    max-height: 470px;
+    background: url("../../icons/advantages.png") center center/cover no-repeat;
+
+    &__wrapper {
+        min-width: 922px;
+
+    }
+
+    &__icons {
+        min-width: 243px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
