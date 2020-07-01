@@ -1,5 +1,5 @@
 .advantages {
-    padding: 20px 0 95px 0;
+    padding: 70px 0 95px 0;
     max-height: 470px;
     background: url("../../icons/advantages.png") center center/cover no-repeat;
 
@@ -7,12 +7,44 @@
         min-width: 922px;
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
 
     }
 
     &__icons {
         min-width: 243px;
 
+
+        img {
+            width: 70px;
+            height: 70px;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 38px;
+        }
     }
+
+    &__text1 {
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    &__text2 {
+        width: 243px;
+        color: #0d0d0d;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+        margin-bottom: 78px;
+
+        span {
+            color: $main-color;
+            text-decoration: underline;
+            text-transform: uppercase;
+        }
+    }
+
 }
