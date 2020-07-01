@@ -5,13 +5,14 @@
 
     &__wrapper {
         min-width: 922px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 
     }
 
     &__icons {
         min-width: 243px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+
     }
 }

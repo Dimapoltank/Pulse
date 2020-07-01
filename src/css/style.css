@@ -119,4 +119,22 @@
     height: 50px;
     font-size: 16px; }
 
+.advantages {
+  padding: 20px 0 95px 0;
+  max-height: 470px;
+  background: url("../../icons/advantages.png") center center/cover no-repeat; }
+  .advantages__wrapper {
+    min-width: 922px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .advantages__icons {
+    min-width: 243px; }
+
 /*# sourceMappingURL=style.css.map */
