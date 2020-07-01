@@ -4,4 +4,11 @@
     font-weight: 700;
     margin-bottom: 65px;
     text-align: center;
+    text-transform: uppercase;
+
+    &_left {
+        color: white;
+        font-size: 36px;
+        text-align: left;
+    }
 }
